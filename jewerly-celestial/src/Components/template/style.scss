@@ -1,0 +1,154 @@
+.head {
+    padding: 100px;
+    
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-right: 10px;
+  }
+  
+  ul li:last-child {
+    margin-right: 10px;
+  }
+  
+  ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px ;
+  }
+
+  ul {
+    li {
+      margin-right: 20px;
+    }
+  }
+
+  
+  @font-face {
+    font-family: "Primer";
+    src: url(../../../public/fonts/PrimerSC-Regular.ttf);
+  }
+
+.bottom {
+  text-align: center;
+  font-family: 'bottom', sans-serif;
+  font-size: 65px;
+} 
+  
+
+
+@font-face {
+  font-family: "bottom";
+  src: url(../../../public/fonts/Italianno-Regular.ttf);
+}
+
+  .Primer {
+    font-family: 'Primer', sans-serif;} 
+.container{
+  display: inline;//
+}
+.img-head {
+  
+  width: 100%;
+  height: 450px;
+  margin: 0;
+  padding: 15;
+  display: block;
+}
+
+.Laetitia {
+  background-color: #7B8B6B;
+  padding: 2;
+  height: 150px;
+  display: block;
+  font-family: "bottom";
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 100px;
+
+
+}
+
+@font-face {
+  font-family: "haha";
+  src: url(../../../public/fonts/SeoulHangang-Regular.ttf);
+}
+
+.Baspage{
+  background-color: #785546;
+  padding: 0;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  font-family: "haha";
+  color: white;
+  text-align: center;
+  font-size: 35px; 
+  margin-bottom: 95px;
+  
+}
+
+.milieu{
+  margin-right: 10000px;
+}
+
+.img-Jesus{
+
+  height: 450px;
+  margin-left: 200px;
+  border-radius: 50%;
+  
+}
+
+.Colombe{
+  height: 450px;
+  margin-left: 530px;
+  border-radius: 65%;
+}
+
+.SE{
+  height: 250px;
+
+
+}
+
+.Jesus{
+  height: 250px;
+}
+
+
+.BO{
+  height: 250px;
+}
+
+.BDO{
+  height: 250px;
+}
+
+.BDO{
+  height: 250px;
+}
+
+.Bracelet{
+  height: 250px;
+}
+
+.Bracelet2{
+  height: 250px;
+}
+
+.Bracelet3{
+ height: 250px;
+}
+
+
+
