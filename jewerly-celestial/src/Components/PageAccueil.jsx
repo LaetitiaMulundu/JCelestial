@@ -15,7 +15,7 @@ const PageAccueil = () => {
       </div>
       
       </nav>
-      <div class="container">
+      <div className="container">
         <img src="/images/photosit2.jpg" alt="Couronne" className='img-head'/>
         
     <Footer/>

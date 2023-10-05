@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/PageAccueil" element={<PageAccueil />} />
+        <Route index element={<PageAccueil />} />
         <Route path="/Apropos" element={<Apropos />} />
         <Route path="/Toutcollect" element={<Toutcollect />} />
         <Route path="/Colliers" element={<Colliers />} />
