@@ -12,6 +12,7 @@ const Boucles = () => {
     <img src="images/bouclesbranche.jpeg" alt="Boucle d'oreille SE" className='BO'/>
     <img src="images/boucles d'oreilles.jpeg" alt="Boucle" className='BDO'/>
     </nav>
+    <button>voir guide des tailles</button>
      
       <Footer/>
       <BasPage/>

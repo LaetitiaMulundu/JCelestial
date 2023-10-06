@@ -13,6 +13,7 @@ const Colliers = () => {
     <img src="images/colliersJesus.jpeg" alt="Collier Jesus" className='Jesus'/>
     
     </nav>
+    <button>voir guide des tailles</button>
      
       <Footer/>
       <BasPage/>

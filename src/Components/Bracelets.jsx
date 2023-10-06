@@ -9,9 +9,26 @@ const Bracelets = () => {
     <div>
     <nav className='head'>
     <Header/>
-    <img src="images/Bracelet Chrétien.jpeg" alt="Bracelet Christ" className='Bracelet'/>
-    <img src="images/bracelet.jpeg" alt="Bracelet C" className='Bracelet2'/>
-    <img src="images/braceletchrist.jpeg" alt="Livre avec colombe" className='Bracelet3'/>
+    <table>
+  
+  <tr>
+      <td><img src="images/Bracelet Chrétien.jpeg" alt="Bracelet Christ" className='Bracelet'/></td>
+      <td><img src="images/bracelet.jpeg" alt="Bracelet C" className='Bracelet2'/></td>
+      <td><img src="images/braceletchrist.jpeg" alt="Livre avec colombe" className='Bracelet3'/></td>
+  </tr>
+  <tr>
+      <td className='text'>$15</td>
+      <td className='text'>$20</td>
+      <td className='text'>$75</td>
+  </tr>
+  <tr>
+      <td className='text'>nom</td>
+      <td className='text'>nom</td>
+      <td className='text'>nom</td>
+  </tr>
+
+</table>
+    
     
     </nav>
      

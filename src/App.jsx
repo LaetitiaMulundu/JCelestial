@@ -6,6 +6,7 @@ import Boucles from './Components/Boucles';
 import Bracelets from './Components/Bracelets';
 import PageAccueil from './Components/PageAccueil';
 import './Components/template/style.scss';
+import Contact from './Components/Contact';
 //import MonImage from '././images/photosite.jpeg'; 
 
 
@@ -22,6 +23,8 @@ function App() {
         <Route path="/Colliers" element={<Colliers />} />
         <Route path="/Boucles" element={<Boucles />} />
         <Route path="/Bracelets" element={<Bracelets />} />
+        <Route path="/Contact" element={<Contact />} />
+        
       </Routes>
     </Router>
   );

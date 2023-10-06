@@ -1,5 +1,6 @@
 .head {
-    padding: 100px;
+    padding: 90px;
+    
     
   }
   
@@ -13,6 +14,7 @@
   
   ul li {
     margin-right: 10px;
+    margin-top: 36px;
   }
   
   ul li:last-child {
@@ -51,7 +53,10 @@
 }
 
   .Primer {
-    font-family: 'Primer', sans-serif;} 
+    font-family: 'Primer', sans-serif;
+    margin-top: 350px;
+    text-align: end;
+  } 
 .container{
   display: inline;//
 }
@@ -150,5 +155,15 @@
  height: 250px;
 }
 
-
-
+.Background{
+  background-color: #7B8B6B;
+  height: 95px;
+  text-align: center;
+  
+}
+.logo{
+  height:20%;
+}
+.text{
+  text-align: center;
+}

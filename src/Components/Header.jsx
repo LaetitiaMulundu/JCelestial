@@ -6,8 +6,11 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
             
-        <header>
+        <header className='Background'>
             <ul>
+              <li>
+              <Link to="/"><img src="../images/logo.png" alt = "logo" className='logo'/></Link>
+              </li>
         <li>
             <Link to="/Apropos"><span className="Primer">A propos</span></Link>
           </li>
@@ -24,8 +27,9 @@ const Header = () => {
             <Link to="/Bracelets"><span className="Primer">Bracelets</span></Link> 
           </li>
           <li>
-            <Link to="/Inscription"><span className="Primer">S'inscrire</span></Link>
-          </li>     
+            <Link to="/Contact"><span className="Primer">Contact</span></Link>
+          </li> 
+
         </ul>
     </header>
     );
